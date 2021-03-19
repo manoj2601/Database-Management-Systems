@@ -1,0 +1,336 @@
+    name     
+-------------
+ Albuquerque
+ Chicago
+ Dallas
+ Georgia
+ Houston
+ LasVegas
+ Phoenix
+ Texas
+ Washington
+(9 rows)
+
+  name   
+---------
+ Chicago
+ Phoenix
+(2 rows)
+
+ name 
+------
+(0 rows)
+
+ length 
+--------
+      9
+(1 row)
+
+ length 
+--------
+      9
+(1 row)
+
+ count 
+-------
+     1
+(1 row)
+
+ count 
+-------
+     2
+(1 row)
+
+    name1    |    name2    
+-------------+-------------
+ Albuquerque | Amsterdam
+ Albuquerque | Boston
+ Albuquerque | Denver
+ Albuquerque | Geneva
+ Albuquerque | LA
+ Amsterdam   | Albuquerque
+ Amsterdam   | Chicago
+ Amsterdam   | Dallas
+ Amsterdam   | Denver
+ Amsterdam   | Georgia
+ Amsterdam   | Houston
+ Amsterdam   | LA
+ Amsterdam   | LasVegas
+ Amsterdam   | Phoenix
+ Amsterdam   | Texas
+ Amsterdam   | Washington
+ Boston      | Albuquerque
+ Boston      | Chicago
+ Boston      | Dallas
+ Boston      | Denver
+ Boston      | Georgia
+ Boston      | Houston
+ Boston      | LA
+ Boston      | LasVegas
+ Boston      | Phoenix
+ Boston      | Texas
+ Boston      | Washington
+ Chicago     | Amsterdam
+ Chicago     | Boston
+ Chicago     | Denver
+ Chicago     | Geneva
+ Chicago     | LA
+ Dallas      | Amsterdam
+ Dallas      | Boston
+ Dallas      | Denver
+ Dallas      | Geneva
+ Dallas      | LA
+ Denver      | Albuquerque
+ Denver      | Amsterdam
+ Denver      | Boston
+ Denver      | Chicago
+ Denver      | Dallas
+ Denver      | Geneva
+ Denver      | Georgia
+ Denver      | Houston
+ Denver      | LA
+ Denver      | LasVegas
+ Denver      | Phoenix
+ Denver      | Texas
+ Denver      | Washington
+ Geneva      | Albuquerque
+ Geneva      | Chicago
+ Geneva      | Dallas
+ Geneva      | Denver
+ Geneva      | Georgia
+ Geneva      | Houston
+ Geneva      | LA
+ Geneva      | LasVegas
+ Geneva      | Phoenix
+ Geneva      | Texas
+ Geneva      | Washington
+ Georgia     | Amsterdam
+ Georgia     | Boston
+ Georgia     | Denver
+ Georgia     | Geneva
+ Georgia     | LA
+ Houston     | Amsterdam
+ Houston     | Boston
+ Houston     | Denver
+ Houston     | Geneva
+ Houston     | LA
+ LA          | Albuquerque
+ LA          | Amsterdam
+ LA          | Boston
+ LA          | Chicago
+ LA          | Dallas
+ LA          | Denver
+ LA          | Geneva
+ LA          | Georgia
+ LA          | Houston
+ LA          | LasVegas
+ LA          | Phoenix
+ LA          | Texas
+ LA          | Washington
+ LasVegas    | Amsterdam
+ LasVegas    | Boston
+ LasVegas    | Denver
+ LasVegas    | Geneva
+ LasVegas    | LA
+ Phoenix     | Amsterdam
+ Phoenix     | Boston
+ Phoenix     | Denver
+ Phoenix     | Geneva
+ Phoenix     | LA
+ Texas       | Amsterdam
+ Texas       | Boston
+ Texas       | Denver
+ Texas       | Geneva
+ Texas       | LA
+ Washington  | Amsterdam
+ Washington  | Boston
+ Washington  | Denver
+ Washington  | Geneva
+ Washington  | LA
+(104 rows)
+
+ day 
+-----
+   2
+   3
+   4
+   5
+   6
+   7
+   8
+   9
+  10
+  11
+  12
+  13
+  14
+  15
+  16
+  17
+  18
+  19
+  20
+  21
+  22
+  23
+  24
+  25
+  26
+  27
+  28
+  29
+  30
+  31
+   1
+(31 rows)
+
+   name    
+-----------
+ Amsterdam
+ Boston
+(2 rows)
+
+    name1    |    name2    
+-------------+-------------
+ Albuquerque | Albuquerque
+ Albuquerque | Chicago
+ Albuquerque | Dallas
+ Albuquerque | Georgia
+ Albuquerque | Houston
+ Albuquerque | LasVegas
+ Albuquerque | Phoenix
+ Albuquerque | Texas
+ Amsterdam   | Amsterdam
+ Amsterdam   | Boston
+ Amsterdam   | Geneva
+ Boston      | Amsterdam
+ Boston      | Boston
+ Boston      | Geneva
+ Chicago     | Albuquerque
+ Chicago     | Chicago
+ Chicago     | Dallas
+ Chicago     | Georgia
+ Chicago     | Houston
+ Chicago     | LasVegas
+ Chicago     | Phoenix
+ Chicago     | Texas
+ Dallas      | Albuquerque
+ Dallas      | Chicago
+ Dallas      | Dallas
+ Dallas      | Georgia
+ Dallas      | Houston
+ Dallas      | LasVegas
+ Dallas      | Phoenix
+ Dallas      | Texas
+ Geneva      | Amsterdam
+ Geneva      | Boston
+ Geneva      | Geneva
+ Georgia     | Albuquerque
+ Georgia     | Chicago
+ Georgia     | Dallas
+ Georgia     | Houston
+ Georgia     | LasVegas
+ Georgia     | Phoenix
+ Georgia     | Texas
+ Houston     | LasVegas
+ LasVegas    | Chicago
+ LasVegas    | Dallas
+ LasVegas    | Georgia
+ LasVegas    | Houston
+ LasVegas    | LasVegas
+ LasVegas    | Phoenix
+ LasVegas    | Texas
+ LasVegas    | Washington
+ Phoenix     | Texas
+ Texas       | Houston
+ Texas       | LasVegas
+ Washington  | Albuquerque
+ Washington  | Chicago
+ Washington  | Dallas
+ Washington  | Georgia
+ Washington  | Houston
+ Washington  | LasVegas
+ Washington  | Phoenix
+ Washington  | Texas
+(60 rows)
+
+ authorid | length 
+----------+--------
+      322 |     -1
+      456 |     -1
+      562 |     -1
+      921 |     -1
+     1558 |     -1
+     1745 |     -1
+     2826 |     -1
+     3552 |     -1
+(8 rows)
+
+ count 
+-------
+    -1
+(1 row)
+
+ count 
+-------
+    -1
+(1 row)
+
+ count 
+-------
+     2
+(1 row)
+
+ authorid 
+----------
+     1745
+     3552
+      562
+      921
+      322
+      456
+     1235
+     1558
+     2826
+(9 rows)
+
+ authorid 
+----------
+     1745
+      456
+      322
+      562
+      921
+     1235
+     1558
+     2826
+     3552
+(9 rows)
+
+ count 
+-------
+    -1
+(1 row)
+
+ count 
+-------
+    -1
+(1 row)
+
+ count 
+-------
+    -1
+(1 row)
+
+ conferencename | count 
+----------------+-------
+ Co1            |     1
+ Co2            |     1
+(2 rows)
+
+ conferencename | count 
+----------------+-------
+ Co2            |     2
+ Co1            |     5
+(2 rows)
+
